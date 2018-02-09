@@ -3,6 +3,10 @@
 	src: url('../fonts/Minion-Pro.ttf');
 }
 
+$maincolor: #787878;
+$nav: #f9f9f9;
+$banner: #f3f3f3;
+
 .wrapper-header {
 	padding: 30px;
 }
@@ -28,6 +32,56 @@ header form {
 
 .navbar a {
 	text-decoration: none;
-	color: none;
+	color: $maincolor;
 }
 
+.menu {
+	margin: 20px;
+	padding: 20px;
+	background-color: $nav;
+	border-style: solid;
+	border-color: red;
+}
+
+.banner {
+	margin-top: 30px;
+	padding: 50px;
+	background-color: $banner;
+}
+
+.banner h1, p {
+	text-align: center;
+}
+
+.banner h1 {
+	font-size: 5vh;
+}
+
+.banner p {
+	font-size: 3.5vh;
+}
+
+.image figure {
+	text-align: center;
+	padding: 30px;
+}
+
+.list-cards li {
+	height: 180px;
+	width: 25%;
+	border: solid;
+	border-color: gray;
+}
+
+.list-cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container-comments, .container-team {
+	display: inline;
+}
+
+.comments.team{
+	display: flex;
+}
