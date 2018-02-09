@@ -49,16 +49,14 @@ header form {
 	background-color: $banner;
 }
 
-.banner h1, p {
-	text-align: center;
-}
-
 .banner h1 {
 	font-size: 5vh;
+	text-align: center;
 }
 
 .banner p {
 	font-size: 3.5vh;
+	text-align: center;
 }
 
 .image figure {
@@ -79,9 +77,30 @@ header form {
 }
 
 .container-comments, .container-team {
-	display: inline;
+	width: 60%;
 }
 
-.comments.team{
+.quotes {
+	padding: 30px;
+}
+
+.comments-team {
+	padding: 30px;
+	display: flex;
+}
+
+.container-team ul li {
+	padding: 30px;
+}
+
+.team-img {
+	display: flex;
+}
+
+.text.wrapper {
+	padding: 10px;
+}
+
+.footer-wrapper {
 	display: flex;
 }
